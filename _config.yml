@@ -1,2 +1,15 @@
-name: Your New Jekyll Site
+name: "Software Archeology @ RIT"
+url: http://www.se.rit.edu/~archeology
+description: "Blog of the research team led by Andy Meneely, Assistant Professor of Software Engineering at the Rochester Insitute of Technology."
+
+destination: _site
+safe: false
+baseurl: /~archeology
+exclude: [Thumbs.db]
+
+# Used in my own custom tags, relative to baseurl
+css_dir: css  
+img_dir: images
+
+name: Software Archeology @ RIT
 pygments: true

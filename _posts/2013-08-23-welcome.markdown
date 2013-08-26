@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Welcome!"
+categories: general
+---
+
+Welcome to our blog! Here you will find a variety of news and updates from the various case studies we're working on. 
