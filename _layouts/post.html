@@ -1,9 +1,24 @@
 ---
 layout: default
+author: andy
 ---
+{% assign author = site.authors[page.author] %}
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
-
+<div class="byline">
+	<img src="http://www.gravatar.com/avatar/{{author.gravatar}}.png?s=120">
+	<a href="{{ author.web }}"> {{ author.display_name }}</a>
+</div>
 <div id="post">
 {{ content }}
 </div>
+
+{% if page.categories.first == 'chromium' %}
+<div id="sponsored">
+  <img width=150 src="{% img CREU-logo.png %}">
+  This project is sponsored by the <a href="http://cra-w.org/ArticleDetails/tabid/77/ArticleID/51/Default.aspx">Collaborative Research Experiences for Undergraduates</a>, funded by the National Science Foundation.
+  
+</div>
+{% endif %}
+
+<a href="{{site.baseurl}}/">&laquo; Home</a>

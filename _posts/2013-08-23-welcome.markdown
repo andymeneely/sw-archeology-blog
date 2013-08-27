@@ -1,7 +1,11 @@
 ---
 layout: post
-title:  "Welcome!"
-categories: general
+title:  "The Year of Chromium Inspections"
+categories: chromium
 ---
 
 Welcome to our blog! Here you will find a variety of news and updates from the various case studies we're working on. 
+
+This year, we're focusing in on two keys areas: *code inspections* and *vulnerabilities*. In particular, our main question is to ask: do code inspections truly prevent vulnerabilities, and if so, to what extent? Furthermore, what are the elements of a successful code inspection, from a socio-technical perspective? That is, how does the collaboration and diversity of skillets coalesce into a good code inspection?
+
+The case study we'll be working is the [Chromium browser](http://www.chromium.org/Home). Chromium is the basis for Google Chrome, and has a massive code base with a large, active open source community. Historically, they have had a variety of vulnerabilities found and fixed. One distinguishing feature about this project, however, is that all source code changes must be inspected prior to being integrated into the system. These inspections are all logged, so this data is ripe for mining. 

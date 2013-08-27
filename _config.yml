@@ -7,6 +7,14 @@ safe: false
 baseurl: /~archeology
 exclude: [Thumbs.db]
 
+# Multiple authors config here
+authors:
+  andy:
+    name: Andy Meneely
+    display_name: Andy Meneely
+    gravatar: c76f91c37fd0a6386de232f58f585ab0
+    web: http://www.se.rit.edu/~andy
+
 # Used in my own custom tags, relative to baseurl
 css_dir: css  
 img_dir: images

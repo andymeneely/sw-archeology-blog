@@ -27,12 +27,25 @@ h1 {
   font-size: 150%;
 }
 
+h2 { 
+  font-size: 130%;
+}
 
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a   { 
+  color: #8085C1; 
+  text-decoration: none;
+}
+
+a:hover   { 
+  color: #000; 
+}
+
+a:visited  { 
+  color: #8085C1; 
+  text-decoration: none;
+}
 
 table {
   font-size: inherit;
@@ -68,7 +81,7 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  max-width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -111,6 +124,7 @@ ul.posts span {
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  clear: both;
 }
 
 .site .footer .contact {
@@ -168,4 +182,34 @@ ul.posts span {
 
 #post pre.terminal code {
   background-color: #333;
+}
+
+.byline{
+  float: left;
+  text-align: center;
+  font-size: 90%;
+}
+
+.byline img{
+  display: block;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+.byline:after {
+  clear: both;
+}
+
+#sponsored {
+  border: 1pt solid #ccc;
+  vertical-align: middle;
+  display: block;
+  width: 50%;
+  float: right;
+  text-align: right;
+  font-size: 90%;
+  line-height: 1.1;
+}
+
+#sponsored img{
+  float: right;
 }
